@@ -8,8 +8,15 @@ export default function App() {
       <div className="container">
         <Weather />
         <footer>
-          Project coded by Carolina Câmara as part of the SheCodes React
-          Workshop and is{" "}
+          Project coded by Carolina Câmara as part of{" "}
+          <a
+            href="https://www.shecodes.io/workshops"
+            target="_blank"
+            rel="noreferrer"
+          >
+            SheCodes React Workshop
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/carolcamaraps/react-weather-app"
             target="_blank"

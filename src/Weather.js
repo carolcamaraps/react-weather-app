@@ -6,15 +6,20 @@ export default function Weather() {
       <div className="Weather">
         <div className="row">
           <form>
-            <div className="col-8">
+            <div className="col-9">
               <input
                 className="form-control"
                 type="search"
                 placeholder="Enter a city..."
+                autoFocus="on"
               />
             </div>
-            <div className="col-4">
-              <input className="btn btn-primary" type="submit" value="Search" />
+            <div className="col-3">
+              <input
+                className="btn btn-primary w-100"
+                type="submit"
+                value="Search"
+              />
             </div>
           </form>
         </div>
@@ -23,9 +28,17 @@ export default function Weather() {
           <li>Wednesday 08:00</li>
           <li>Sunny</li>
         </ul>
-        <div className="row">
+        <div className="row mt-3">
           <div className="col-6">
-            <img className="weather-icon" src={sunny} alt="sun emoji" /> 15 ℃
+            <div className="clearfix">
+              
+                <img className="weather-icon" src={sunny} alt="sun emoji" />
+             
+              
+                <span className="temperature">15</span>
+                <span className="unit">℃</span>
+              
+            </div>
           </div>
           <div className="col-6">
             <ul>
