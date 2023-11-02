@@ -11,7 +11,7 @@
 
 .Weather h1 {
     color: #878787;
-    margin: 5px 0 0 0;
+    margin: 5px 0 5px 0;
     font-size: 35px;
     font-weight: 100;
     line-height: 29px;
@@ -31,7 +31,7 @@
 
 .Weather .weather-icon {
     max-width: 50px;
-    margin-right: 10px;
+    margin-right: 6px;
     display: inline-block;
     margin-bottom: 35px;
 }
@@ -48,7 +48,7 @@
     font-weight: 400;
     position: relative;
     top: -34px;
-    margin-left: 5px;
+    margin-left: 1px;
     line-height: 1
     
 }
