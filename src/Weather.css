@@ -29,11 +29,10 @@
     list-style: none;
 }
 
-.Weather .weather-icon {
+.Weather canvas {
     max-width: 50px;
     margin-right: 6px;
     display: inline-block;
-    margin-bottom: 35px;
 }
 
 .Weather .temperature {
