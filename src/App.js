@@ -16,13 +16,21 @@ export default function App() {
           >
             SheCodes React Workshop
           </a>{" "}
-          and is{" "}
+          |{" "}
           <a
             href="https://github.com/carolcamaraps/react-weather-app"
             target="_blank"
             rel="noreferrer"
           >
             open-sourced on GitHub
+          </a>{" "}
+          |{" "}
+          <a
+            href="https://illustrious-paletas-d16319.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            hosted on Netlify
           </a>
         </footer>
       </div>

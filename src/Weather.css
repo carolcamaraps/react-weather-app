@@ -30,7 +30,6 @@
 }
 
 .Weather canvas {
-    max-width: 50px;
     margin-right: 6px;
     display: inline-block;
 }
@@ -40,6 +39,7 @@
     font-size: 64px;
     font-weight: 400;
     line-height: 64px;
+
 }
 
 .Weather .unit {
